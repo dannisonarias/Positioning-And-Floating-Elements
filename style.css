@@ -63,6 +63,7 @@
 /* #region Advertisement  */
 
 .advertisement {
+  line-height: 18;
   box-sizing: border-box;
   background: grey;
   width: 100%;
@@ -91,8 +92,8 @@ h2.main-pic-header {
   font-size: 30px; /*Lowered pixel size as unable to get NYT font*/
   font-weight: 700;
   font-style: italic;
-  margin-right: 619px;
-  margin-left: 403px;
+    margin-right: 619px;
+    margin-left: 403px;
   /*margin-right:auto;*/
   /*margin-left:auto;*/
 }
@@ -144,6 +145,7 @@ h2.main-pic-header {
 .main-content {
   box-sizing: border-box;
   max-width: 40%; /*Position based on element being static position*/
+  min-width: 700px;
   margin-left: auto;
   margin-right: auto;
   line-height: 30px;
@@ -298,6 +300,20 @@ h4.main-content-subheading {
   margin-bottom: 15px;
   padding-bottom: 12px;
 }
+.main-content-1{
+  display:block;
+    box-sizing: border-box;
+    max-width: 60%; /*Position based on element being static position*/
+    min-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    font-size: 21px;
+    margin: 45px auto;
+}
+.main-content-1 p{
+  color: rgb(107, 106, 106);
+}
 
 .main-content-editor-imgone {
   max-width: 75px;
@@ -339,6 +355,19 @@ h4.main-content-subheading {
   font-weight: 700;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.images-astronomers-container-1{
+  display: flex;
+  justify-content: center;
+}
+.p-inside-main-content-1{
+  /* width: 300px; */
+  display: flex;
+  align-items: center;
+}
+.p-inside-main-content-1 p{
+  display: inline-flex;
+  text-align: center;
+}
 
 .comic-map {
   height: 576px;
@@ -355,7 +384,7 @@ h4.main-content-subheading {
 }
 .rowone-blurb,
 .rowtwo-blurb {
-  width: 18%;
+  width: 29%;
   float: right;
   font-size: 13px;
   margin: 10px;
