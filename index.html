@@ -2,35 +2,68 @@
 <html>
 <link rel="stylesheet" href="style.css">
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <title>Sample HTML5 Layout</title>
     <link href="StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <h1>This is page heading H1</h1>
+        <ul class="header-newyorktimes-logo-section">
+            <div class="left-side-header"></div>
+            <li>              
+                 <i class="fas fa-bars"></i>
+            </li>
+                <li>
+                <i class="fas fa-search"></i>
+            </li>
+            <li>
+                <a href="">Space & Cosmos
+                </a>
+            </li>
+            </div>
+            <li class="newyork-times-logo">
+                <img src="./img/new-york-times.png" alt="">
+            </li>
+            <li>
+                <hr class="nav-hr">
+            </li>
+            <li class="header-buttons">
+                <button>button1</button>
+                <button>button2</button>
+            </li>
+        </ul>
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a class="subscribe-now-a-link" href="#">subscribe now</a></li>
+            <span>|</span>
+            <li><a href="#">log in</a></li>
         </ul>
     </nav>
-    <article>
-        <h1>This is article heading H1</h1>
+    <div class="advertisement">
+        <p>Advertisement</p>
+        <img src="./img/advertisement.png" alt="advertisement"></div>
+    <article class="main-article center-container">
+        <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
+        <img src="./img/18cosmos-jumbo.jpg.webp" alt="18 cosmos">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolorem.
+            Alan Guth was one of the first physicists to hypothesize the existence of
+             inflation, which explains how the universe expanded so uniformly and so
+              quickly in the instant after the Big Bang 13.8 billion years ago.Credit.
+              <span class="article-by">Rick Friedman for The New York Times</span>
         </p>
     </article>
     <div class="main-container">
-        <section>
-            <h1>This is a section heading H1</h1>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptates corporis ratione maxime repellendus ab.
-            </p>
-        </section>
+                <h1>By Dennis Overbye</h1>
+                <p>March 17, 2014</p>
+
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fas fa-envelope"></i>
+            <i class="fas fa-share"></i>
+            <i class="far fa-bookmark"></i>
+            <i class="far fa-comment-alt"></i>
+        </div>
         <aside>
             <figure>
                 <img src="images/laptop.png" height="100px" width="100px" />

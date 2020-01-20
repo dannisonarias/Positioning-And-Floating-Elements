@@ -1,15 +1,69 @@
+body p{
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+header{
+    width: 100%;
+}
+.header-newyorktimes-logo-section li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.newyork-times-logo{
+    margin-left: 29%;
+    padding-right: 100px;
+}
+nav li{
+    display: inline-block;
+    float: right;
+    padding: 0px 10px;
+}
+.nav-hr{
+    opacity: 0.3;
+}
+.advertisement{
+   margin-left:25%;
+}
+.advertisement p{
+    margin-left: 29%;
+    opacity: 0.7;
+}
+.main-article h1{
+    text-align: center;
+}
+.center-container{
+    padding: 0 23%;
+}
+.main-article p{
+    float:left;
+}
+.left-side-header{
+    float: left;
+}
+h1{
+    font-size: 31px;
+    font-family:nyt-cheltenham,georgia, "times new roman", times, serif
+}
+.article-by{
+    opacity: 0.7;
+    font-size: 12px;
+}
+.header-buttons{
+    float:right;
+}
+.main-container h1{
+    font-family:nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 15px;
+}
+.main-container p{
+    font-family:nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 13px;
+}
 article{
     padding:5px;
     border:dotted 3px #ff006e;
     margin-top:5px;
 }
-
-header
-{
-    padding:0px;
-    text-align:center;
-}
-
 aside
 {
     margin-top:5px;
@@ -19,10 +73,7 @@ aside
     font-style:italic;
     border:double 3px #b200ff;
 }
-
-section
-{
-    
+section{
     padding:5px;
     border:dashed 3px #0026ff;
     margin-top:5px;
@@ -32,20 +83,6 @@ footer
 {
     padding:5px;
     text-align:center;
-    font-weight:bold;
-}
-
-nav
-{
-    text-align:center;
-}
-ul li
-{
-    display:inline;
-    padding-left:5px;
-    padding-right:5px;
-    text-align:left;
-    font-size:16px;
     font-weight:bold;
 }
 .main-container{
