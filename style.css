@@ -97,6 +97,7 @@ h2.main-pic-header {
   /*margin-right:auto;*/
   /*margin-left:auto;*/
 }
+
 .main-pic--img {
   /*Position reference-static, ancestor main-pic*/
   width: 1200px;
@@ -529,4 +530,30 @@ iframe {
 
 .end-footer li {
   display: inline;
+}
+.main-wrapper-theory{
+  width: 1050px;
+  margin-top: 50px;
+}
+.p-wrapper div{
+  margin: 15px 0px 10px 25px;
+  width: 20%;
+  float: left;
+}
+.main-wrapper-theory{
+  margin-left: 23%;
+}
+.main-pic-header-1{
+  display: inline;
+  margin-left: 30%;
+  font-size:30px ;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+.nav3{
+  opacity: 0.8;
+  margin-top: 20px;
+  line-height: 1.5;
+  width:630px;
+  margin-left: 30%;
+  font-size: 13px;
 }
