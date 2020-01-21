@@ -46,7 +46,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used!
-- Thanks to Microverse and Odin!
+- Thanks to Microverse and Odin for making this possible!
 
 ## 📝 License
 
