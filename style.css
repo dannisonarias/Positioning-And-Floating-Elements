@@ -150,7 +150,7 @@ h2.main-pic-header {
   margin-left: auto;
   margin-right: auto;
   line-height: 30px;
-  font-size: 19.7px;
+  font-size: 20px;
 }
 
 .main-content p {
@@ -442,7 +442,7 @@ iframe {
 .images-grid-tableformatfirst {
   width: 1096px;
   height: 310px;
-  margin-left: 40px;
+  margin-left: 100px;
   /*clear:both;
   Clear not needed as the section block is in the document flow as line items */
 }
@@ -477,9 +477,28 @@ iframe {
   border-top: 2px solid red;
 }
 
+/* #region  Header Above Column List */
+
+.footer-wrapper-logos {
+  width: 90%;
+}
+
+.footer-nyt-logoimg {
+}
+
+.footer-nyt-img-wrap {
+}
+
+.footer-nyt-img-wrap-text {
+  float: left;
+}
+
+/* #endregion Header Above Column List*/
+
 /*FINAL SECTION LIST ITEMS */
 
 .footer-list-items-wrap {
+  clear: both;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -496,9 +515,8 @@ iframe {
 
 .footer-list-items-wrap {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: auto;
-
   background-color: red;
 }
 
@@ -508,7 +526,7 @@ iframe {
 .footer-list-column-four,
 .footer-list-column-five,
 .footer-list-column-six {
-  width: 25%;
+  width: 15%;
   display: block;
   float: left;
   list-style: none;
@@ -517,8 +535,9 @@ iframe {
 
 .footer-list-item {
   font-family: sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   color: grey;
+  line-height: 20px;
 }
 
 .end-footer {
@@ -531,29 +550,34 @@ iframe {
 .end-footer li {
   display: inline;
 }
-.main-wrapper-theory{
+.main-wrapper-theory {
   width: 1050px;
   margin-top: 50px;
 }
-.p-wrapper div{
+.p-wrapper div {
   margin: 15px 0px 10px 25px;
   width: 20%;
   float: left;
 }
-.main-wrapper-theory{
+.main-wrapper-theory {
   margin-left: 23%;
 }
-.main-pic-header-1{
+.main-pic-header-1 {
   display: inline;
   margin-left: 30%;
-  font-size:30px ;
+  font-size: 30px;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
-.nav3{
+
+.footer-list-column-six :nth-child(3) img {
+  height: 24px;
+}
+
+.nav3 {
   opacity: 0.8;
   margin-top: 20px;
   line-height: 1.5;
-  width:630px;
+  width: 630px;
   margin-left: 30%;
   font-size: 13px;
 }
