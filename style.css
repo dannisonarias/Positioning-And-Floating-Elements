@@ -1,33 +1,33 @@
 
+
 *,
-*::before,
-*::after {
+::before,
+::after {
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	box-sizing: border-box
 }
 
 html,
 body {
-	
 	margin: 0;
 	padding: 0;
-	color: rgb(51, 51, 51);
+	color: #333
 }
 
 ul li {
-	list-style-type: none;
+	list-style-type: none
 }
 
 img {
 	max-width: 100%;
-	height: auto;
+	height: auto
 }
 
 .bigImage {
 	width: 1200px;
-	margin: 0 auto;
+	margin: 0 auto
 }
 
 .fixed-bar {
@@ -39,24 +39,24 @@ img {
 	margin: 0 auto;
 	z-index: 9999;
 	top: 0;
-	width: 100%;
+	width: 100%
 }
 
 .fixed-bar ul {
 	position: relative;
 	bottom: 8px;
 	right: 80px;
-	float: left;
+	float: left
 }
 
 .fixed-bar ul li {
 	float: left;
-	list-style-type: none;
+	list-style-type: none
 }
 
 .navIcons .search {
 	position: relative;
-	right: 60px;
+	right: 60px
 }
 
 .navIcons .text-link {
@@ -65,11 +65,12 @@ img {
 	font-size: 14.25px;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 0.7px;
-	line-height: 19px;
+	letter-spacing: .7px;
+	line-height: 19px
 }
-.text-link:hover{
-	border-bottom: 1px solid black;
+
+.text-link:hover {
+	border-bottom: 1px solid #000
 }
 
 .header-links button {
@@ -81,66 +82,65 @@ img {
 	font-size: 11px;
 	color: #fff;
 	line-height: 11px;
-	letter-spacing: 0.05em;
-	font-weight: 700;
+	letter-spacing: .05em;
+	font-weight: 700
 }
 
 .navIcons img {
 	height: 15px;
-	width: 100px;
+	width: 100px
 }
 
 .logo {
 	float: left;
 	margin-top: 2px;
-	margin-left: 120px;
+	margin-left: 17%;
 	position: relative;
-	width: 35%;
+	width: 35%
 }
 
 main {
 	clear: both;
 	max-width: 1200px;
 	margin: 0 auto;
-	margin-top: 5em;
+	margin-top: 5em
 }
 
 .header-links {
-	float: right;
+	float: right
 }
 
 h1 {
-	
 	width: 40%;
 	font-size: 1.9375rem;
 	max-width: 600px;
 	line-height: 2.25rem;
 	font-style: italic;
-	margin: 0 20rem 2rem;
+	margin: 0 20rem 2rem
 }
 
 .headline span {
 	display: inline-block;
-	color: black;
-	max-width: 383.777px;
+	color: #000;
+	max-width: 383.777px
 }
 
 .mainImg {
 	width: 100%;
 	margin: 0 auto;
-	cursor: pointer;
+	cursor: pointer
 }
 
 .mainImg img {
-	width: 100%;
+	width: 100%
 }
 
 .mainImg figure figcaption {
 	color: #666;
-	font-size: 0.9375rem;
+	font-size: .9375rem;
 	line-height: 1.25rem;
 	margin-right: 20%;
-	opacity: 0.6;
+	opacity: .6
 }
 
 .content p,
@@ -150,34 +150,34 @@ h1 {
 	margin-left: auto;
 	color: #121212;
 	font-size: 1.25rem;
-	line-height: 1.875rem;
+	line-height: 1.875rem
 }
 
 .author-name {
 	width: 45%;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: auto
 }
 
 .author-name a {
-	font-size: 0.9375rem;
+	font-size: .9375rem;
 	color: #333;
 	font-weight: 700;
 	line-height: 1.25rem;
-	text-decoration: none;
+	text-decoration: none
 }
 
 .article-nav .article-date {
 	color: #333;
 	font-weight: 500;
-	font-size: 0.8125em;
+	font-size: .8125em
 }
 
 .socialIcons {
 	float: right;
 	list-style-type: none;
 	margin-top: 0;
-	margin-right: 15px;
+	margin-right: 15px
 }
 
 .socialIcons .icon a {
@@ -185,38 +185,38 @@ h1 {
 	background: #eee;
 	border-radius: 100%;
 	padding: 5px;
-	border: 1px solid #eee;
+	border: 1px solid #eee
 }
 
 .socialIcons .icon a img {
 	height: 15px;
 	width: 15px;
-	vertical-align: baseline;
+	vertical-align: baseline
 }
 
 .socialIcons li {
 	display: inline;
 	margin-right: 16px;
-	padding: 10px 0;
+	padding: 10px 0
 }
 
 .socialIcons .save a {
 	text-decoration: none;
-	margin-top: 10px;
+	margin-top: 10px
 }
 
 .socialIcons .save a img {
 	position: relative;
-	top: 5px;
+	top: 5px
 }
 
 .socialIcons .post-count a {
 	text-decoration: none;
-	color: rgb(102, 102, 102);
+	color: #666
 }
 
 .socialIcons .post-count .post-count--icon {
-	border: 1px solid rgb(102, 102, 102);
+	border: 1px solid #666;
 	padding: 4px 6px;
 	border-radius: 4px;
 	border-image: initial;
@@ -224,13 +224,13 @@ h1 {
 	position: relative;
 	min-width: 26px;
 	min-height: 14px;
-	width: auto;
+	width: auto
 }
 
 .socialIcons .post-count .post-count-value {
 	margin-top: auto;
-	font-size: 0.75em;
-	line-height: 0.75em;
+	font-size: .75em;
+	line-height: .75em
 }
 
 .socialIcons .post-count .post-count-value::before {
@@ -241,7 +241,7 @@ h1 {
 	left: 15px;
 	border-style: solid;
 	border-width: 9px 0 0 8px;
-	border-color: rgb(102, 102, 102) transparent;
+	border-color: #666 transparent
 }
 
 .socialIcons .post-count .post-count-value::after {
@@ -253,90 +253,57 @@ h1 {
 	left: 16px;
 	border-style: solid;
 	border-width: 6px 0 0 6px;
-	border-color: rgb(255, 255, 255) transparent;
+	border-color: #fff transparent
 }
 
 aside {
 	float: right;
-	width: 210px;
+	width: 210px
 }
 
-.aside1 h2 {
-	font-size: 1.3em;
-	line-height: 1.6em;
-	font-weight: 700;
-	margin: 0;
-}
-
-.aside1 p {
-	color: rgb(102, 102, 102);
-	width: 100%;
-	font-size: 0.8125rem;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 1rem;
-	margin-top: 5px;
-}
-
-.aside1 button {
-	color: rgb(255, 255, 255);
-	font-size: 13px;
-	font-style: normal;
-	font-weight: 700;
-	width: 100%;
-	height: 35px;
-	background: rgb(98, 136, 165);
-	border-style: solid;
-	border-color: rgb(98, 136, 165);
-	border-radius: 4px;
-}
-
-.aside1 {
-	max-width: 180px;
-}
 .aside2 {
-	width: 210px;
+	width: 210px
 }
 
 .side-editor-picks::after {
 	content: '';
 	display: table;
 	clear: both;
-	margin-bottom: 15px;
+	margin-bottom: 15px
 }
 
 .side-editor-picks__img {
 	float: left;
 	margin-right: 7px;
-	width: 75px;
+	width: 75px
 }
 
 .side-editor-picks__img img {
 	width: 75px;
-	height: 75px;
+	height: 75px
 }
 
 .side-editor-picks__text {
 	float: left;
 	max-width: 170px;
 	font-size: 10px;
-	font-family: nyt-cheltenham-small, georgia, "times new roman";
+	font-family: nyt-cheltenham-small, georgia, "times new roman"
 }
 
 .aside2 h2 {
-	color: rgb(0, 0, 0);
+	color: #000;
 	padding-bottom: 12px;
 	font-size: 14px;
 	line-height: 14px;
-	letter-spacing: 0.02em;
-	border-bottom: 1px solid rgb(226, 226, 226);
+	letter-spacing: .02em;
+	border-bottom: 1px solid #e2e2e2
 }
 
 .aside2 a {
 	text-decoration: none;
-	color: rgb(51, 51, 51);
+	color: #333;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 500
 }
 
 .aside2 a h3 {
@@ -344,7 +311,7 @@ aside {
 	font-weight: 500;
 	margin: 0;
 	line-height: 17px;
-	width: 125px;
+	width: 125px
 }
 
 .theory-image {
@@ -353,20 +320,20 @@ aside {
 	height: 600px;
 	margin: 15px 0;
 	font-size: 14px;
-	position: relative;
+	position: relative
 }
 
-#theory-image__author {
+.theory-image__author {
 	font-size: 14px;
 	width: 80%;
-	margin: auto;
+	margin: auto
 }
 
-h2.subheading {
+.subheading {
 	font-weight: 700;
 	width: 45%;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: auto
 }
 
 .the-universe,
@@ -383,232 +350,234 @@ h2.subheading {
 	line-height: 17px;
 	font-weight: 300;
 	padding: 0 20px;
-	text-align: left;
+	text-align: left
 }
 
 .still-not-enough-time,
 .inflation,
 .fluctuation,
 .expansion {
-	top: 75%;
+	top: 75%
 }
 
 .the-universe,
 .still-not-enough-time {
-	left: 100px;
+	left: 100px
 }
 
 .not-enough-time,
 .inflation {
-	left: 350px;
+	left: 350px
 }
 
 .distant-coffee,
 .fluctuation {
-	right: 350px;
+	right: 350px
 }
 
 .coffee-everywhere,
 .expansion {
-	right: 95px;
+	right: 95px
 }
 
 .iframe {
 	margin-right: auto;
 	margin-left: auto;
 	border: none;
-	max-width: 45%;
+	max-width: 45%
 }
 
 .bottom-content {
 	width: 1200px;
-	margin: auto;
-}
-.bottom-content h2:hover{
-	opacity: 0.6;
-	cursor: pointer;
-}
-.date-of-articles{
-	opacity: 0.6;
+	margin: auto
 }
 
+.bottom-content-h2:hover {
+	opacity: .6;
+	cursor: pointer
+}
+
+.date-of-articles {
+	opacity: .6
+}
 
 .more-space-cosmos {
 	width: 70%;
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: top
 }
 
 .more-space-cosmos-hr {
 	border: none;
-	background-color: black;
+	background-color: #000;
 	margin: 0 10px;
-	height: 1px;
+	height: 1px
 }
 
 .most-popular {
 	width: 25%;
 	display: inline-block;
-	border-top: 1px solid black;
-	margin-left: 38px;
+	border-top: 1px solid #000;
+	margin-left: 38px
 }
-.most-popular li:hover{
-	opacity: 0.6;;
+
+.most-popular li:hover {
+	opacity: .6
 }
 
 .image-grid {
 	max-width: 33.33%;
 	float: right;
-	padding: 10px;
+	padding: 10px
 }
 
 div.image-grid figcaption {
-	font-size: 0.625em;
-	text-align: right;
+	font-size: .625em;
+	text-align: right
 }
 
 .image-grid img {
-	max-width: 100%;
+	max-width: 100%
 }
 
 .image-grid figure {
-	margin: 0;
+	margin: 0
 }
 
-.image-grid h2 {
+.bottom-content-h2{
 	font-size: 1.125rem;
 	line-height: 22px;
 	margin-top: 5px;
-	font-weight: 500;
+	font-weight: 500
 }
 
 .image-grid span time {
 	font-weight: 500;
 	color: gray;
-	font-size: 0.75em;
+	font-size: .75em
 }
 
 .editors-picks {
 	clear: both;
-	padding-top: 4px;
+	padding-top: 4px
 }
 
 .editors-picks-hr {
 	border: none;
-	background-color: black;
+	background-color: #000;
 	height: 1px;
-	margin: 20px 10px 0 10px;
+	margin: 20px 10px 0
 }
 
 .editors-picks-h2 {
-	padding-left: 10px;
+	padding-left: 10px
 }
 
 footer {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 3% 9px;
+	padding: 0 3% 9px
 }
 
 #main-footer::before {
-	border-bottom: 1px solid rgb(226, 226, 226);
-	border-top: 2px solid rgb(226, 226, 226);
+	border-bottom: 1px solid #e2e2e2;
+	border-top: 2px solid #e2e2e2;
 	content: "";
 	display: block;
 	height: 1px;
-	margin-top: 0;
+	margin-top: 0
 }
 
 .footer-nav {
 	display: inline-block;
 	vertical-align: top;
-	width: 15%;
+	width: 15%
 }
 
 .more-space-cosmos-header {
-	padding: 10px;
+	padding: 10px
 }
 
 .more-space-cosmos-header a,
-.most-popular-header > a {
+.most-popular-header>a {
 	text-decoration: none;
-	color: black;
+	color: #000;
 	font-weight: 700;
-	font-size: 1.178em;
+	font-size: 1.178em
 }
 
 .most-popular-header a {
-	text-decoration: none;
+	text-decoration: none
 }
 
 #conpyright-section {
-	border-top: 1px solid rgb(235, 235, 235);
+	border-top: 1px solid #ebebeb
 }
 
 #footer-bottom-nav {
-	text-align: center;
+	text-align: center
 }
 
 #footer-bottom-nav li {
 	display: inline-block;
 	font-size: x-small;
-	padding: 10px 5px;
+	padding: 10px 5px
 }
 
 #footer-bottom-nav li a {
 	text-decoration: none;
-	color: rgb(153, 153, 153);
+	color: #999
 }
 
 .most-popular-header {
 	margin: 0;
-	padding: 10px;
+	padding: 10px
 }
 
 ul#most-popular li {
 	border-top: 1px solid #ccc;
-	padding: 15px 0;
+	padding: 15px 0
 }
 
 #most-popular {
-	padding: 15px 0;
+	padding: 15px 0
 }
 
 .most-popular-header ul li a {
 	font-size: 1.125em;
 	font-weight: 500;
 	line-height: 1.375em;
-	color: rgb(18, 18, 18);
+	color: #121212
 }
 
 .main-footer {
 	max-width: 1200px;
 	padding: 0;
-	margin: auto;
+	margin: auto
 }
 
 .footer-header {
-	margin-top: 15px;
+	margin-top: 15px
 }
 
 .footer-nav {
-	width: 16%;
+	width: 16%
 }
 
 .footer-header__heading {
 	float: left;
 	margin: 0;
-	width: 15%;
+	width: 15%
 }
 
 .footer-header__link {
 	float: right;
 	text-decoration: none;
-	color: rgb(98, 136, 165);
+	color: #6288a5;
 	font-size: 11px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 11px;
+	line-height: 11px
 }
 
 .footer-header__link:hover,
@@ -616,48 +585,47 @@ ul#most-popular li {
 .aside2 a:hover,
 #footer-bottom-nav a:hover,
 .side-editor-picks__text:hover {
-	text-decoration: underline;
+	text-decoration: underline
 }
 
 .clear-fix {
-	clear: both;
+	clear: both
 }
 
 .footer-nav__heading {
 	cursor: pointer;
 	font-size: 13px;
 	color: #333;
-	letter-spacing: 0.04rem;
-	line-height: 44px;
+	letter-spacing: .04rem;
+	line-height: 44px
 }
 
 .footer-nav nav {
-	margin-top: -20px;
+	margin-top: -20px
 }
 
 .footer-nav__link {
 	margin-left: -40px;
 	margin-bottom: 8px;
-	font-size: 13px;
+	font-size: 13px
 }
 
 .footer-nav__link a {
 	text-decoration: none;
-	color: black;
+	color: #000
 }
 
 .fixed-footer {
-	
 	text-align: center;
-	font-weight: normal;
-	color: black;
+	font-weight: 400;
+	color: #000;
 	position: sticky;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	height: 55px;
-	border-top: 1px solid black;
+	border-top: 1px solid #000;
 	cursor: pointer;
-	z-index: 9998;
+	z-index: 9998
 }
 
