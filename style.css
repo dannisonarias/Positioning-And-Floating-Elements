@@ -6,28 +6,28 @@
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box
+	box-sizing: border-box;
 }
 
 html,
 body {
 	margin: 0;
 	padding: 0;
-	color: #333
+	color: #333;
 }
 
 ul li {
-	list-style-type: none
+	list-style-type: none;
 }
 
 img {
 	max-width: 100%;
-	height: auto
+	height: auto;
 }
 
 .bigImage {
 	width: 1200px;
-	margin: 0 auto
+	margin: 0 auto;
 }
 
 .fixed-bar {
@@ -39,24 +39,24 @@ img {
 	margin: 0 auto;
 	z-index: 9999;
 	top: 0;
-	width: 100%
+	width: 100%;
 }
 
 .fixed-bar ul {
 	position: relative;
 	bottom: 8px;
 	right: 80px;
-	float: left
+	float: left;
 }
 
 .fixed-bar ul li {
 	float: left;
-	list-style-type: none
+	list-style-type: none;
 }
 
 .navIcons .search {
 	position: relative;
-	right: 60px
+	right: 60px;
 }
 
 .navIcons .text-link {
@@ -66,11 +66,11 @@ img {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: .7px;
-	line-height: 19px
+	line-height: 19px;
 }
 
 .text-link:hover {
-	border-bottom: 1px solid #000
+	border-bottom: 1px solid #000;
 }
 
 .header-links button {
@@ -83,12 +83,12 @@ img {
 	color: #fff;
 	line-height: 11px;
 	letter-spacing: .05em;
-	font-weight: 700
+	font-weight: 700;
 }
 
 .navIcons img {
 	height: 15px;
-	width: 100px
+	width: 100px;
 }
 
 .logo {
@@ -96,18 +96,18 @@ img {
 	margin-top: 2px;
 	margin-left: 17%;
 	position: relative;
-	width: 35%
+	width: 35%;
 }
 
 main {
 	clear: both;
 	max-width: 1200px;
 	margin: 0 auto;
-	margin-top: 5em
+	margin-top: 5em;
 }
 
 .header-links {
-	float: right
+	float: right;
 }
 
 h1 {
@@ -116,23 +116,23 @@ h1 {
 	max-width: 600px;
 	line-height: 2.25rem;
 	font-style: italic;
-	margin: 0 20rem 2rem
+	margin: 0 20rem 2rem;
 }
 
 .headline span {
 	display: inline-block;
 	color: #000;
-	max-width: 383.777px
+	max-width: 383.777px;
 }
 
 .mainImg {
 	width: 100%;
 	margin: 0 auto;
-	cursor: pointer
+	cursor: pointer;
 }
 
 .mainImg img {
-	width: 100%
+	width: 100%;
 }
 
 .mainImg figure figcaption {
@@ -140,7 +140,7 @@ h1 {
 	font-size: .9375rem;
 	line-height: 1.25rem;
 	margin-right: 20%;
-	opacity: .6
+	opacity: .6;
 }
 
 .content p,
@@ -150,13 +150,13 @@ h1 {
 	margin-left: auto;
 	color: #121212;
 	font-size: 1.25rem;
-	line-height: 1.875rem
+	line-height: 1.875rem;
 }
 
 .author-name {
 	width: 45%;
 	margin-right: auto;
-	margin-left: auto
+	margin-left: auto;
 }
 
 .author-name a {
@@ -164,7 +164,7 @@ h1 {
 	color: #333;
 	font-weight: 700;
 	line-height: 1.25rem;
-	text-decoration: none
+	text-decoration: none;
 }
 
 .article-nav .article-date {
@@ -444,7 +444,7 @@ div.image-grid figcaption {
 	margin: 0
 }
 
-.bottom-content-h2{
+.bottom-content-h2 {
 	font-size: 1.125rem;
 	line-height: 22px;
 	margin-top: 5px;
