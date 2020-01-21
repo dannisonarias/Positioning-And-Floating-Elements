@@ -1,5 +1,3 @@
-
-
 *,
 ::before,
 ::after {
@@ -65,7 +63,7 @@ img {
 	font-size: 14.25px;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: .7px;
+	letter-spacing: 0.7px;
 	line-height: 19px;
 }
 
