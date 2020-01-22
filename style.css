@@ -212,14 +212,6 @@ h1 {
 	color: #121212;
 }
 
-.footer-header__link:hover,
-.footer-nav__link a:hover,
-.aside2 a:hover,
-#footer-bottom-nav a:hover,
-.side-editor-picks__text:hover {
-	text-decoration: underline;
-}
-
 .socialIcons {
 	float: right;
 	list-style-type: none;
