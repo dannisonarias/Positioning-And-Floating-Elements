@@ -13,7 +13,7 @@ This assignment consists of making a clone of a New York Times article page.
 
 ## Live Demo
 
-Check the GitHack demo [here](https://rawcdn.githack.com/dannisonarias/Positioning-And-Floating-Elements/adc36469a011b2142b8e65513f907da2e08526dc/index.html)
+Check the GitHack demo [here](https://rawcdn.githack.com/dannisonarias/Positioning-And-Floating-Elements/29656bf9e016fb53a72b1110cec6b64cd43b0c50/index.html)
 
 ## Getting Started
 
