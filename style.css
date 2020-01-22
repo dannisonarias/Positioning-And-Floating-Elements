@@ -212,6 +212,14 @@ h1 {
 	color: #121212;
 }
 
+.footer-header__link:hover,
+.footer-nav__link a:hover,
+.aside2 a:hover,
+#footer-bottom-nav a:hover,
+.side-editor-picks__text:hover {
+	text-decoration: underline;
+}
+
 .socialIcons {
 	float: right;
 	list-style-type: none;
@@ -320,7 +328,7 @@ aside {
 	float: left;
 	max-width: 170px;
 	font-size: 10px;
-	font-family:"times new roman";
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .aside2 h2 {
@@ -530,7 +538,7 @@ footer {
 	padding: 10px 5px;
 }
 
-#footer-bottom-nav-a{
+#footer-bottom-nav-a {
 	text-decoration: none;
 	color: #999;
 }
@@ -573,14 +581,6 @@ ul#most-popular li {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 11px;
-}
-
-.footer-header__link:hover,
-.footer-nav__link a:hover,
-.aside2 a:hover,
-#footer-bottom-nav a:hover,
-.side-editor-picks__text:hover {
-	text-decoration: underline;
 }
 
 .clear-fix {
