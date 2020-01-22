@@ -341,7 +341,7 @@ aside {
 }
 
 .theory-image {
-	background: url(../images/inflation-945.png) center no-repeat;
+	background: url(images/inflation-945.png) center no-repeat;
 	background-size: contain;
 	height: 600px;
 	margin: 15px 0;
@@ -597,7 +597,7 @@ ul#most-popular li {
 	font-size: 13px;
 }
 
-a {
+.footer-nav__link a {
 	text-decoration: none;
 	color: #000;
 }
