@@ -9,6 +9,7 @@
 
 html,
 body {
+	min-width: 1250px;
 	margin: 0;
 	padding: 0;
 	color: #333;
@@ -38,6 +39,12 @@ img {
 	z-index: 9999;
 	top: 0;
 	width: 100%;
+}
+
+.socialIcons li {
+	display: inline;
+	margin-right: 16px;
+	padding: 10px 0;
 }
 
 .fixed-bar ul {
@@ -92,9 +99,9 @@ img {
 .logo {
 	float: left;
 	margin-top: 2px;
-	margin-left: 17%;
+	margin-left: 75px;
 	position: relative;
-	width: 35%;
+	width: 300px;
 }
 
 main {
@@ -171,6 +178,33 @@ h1 {
 	font-size: 0.8125em;
 }
 
+.aside2 a {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.image-grid img {
+	max-width: 100%;
+}
+
+.more-space-cosmos-header {
+	padding: 10px;
+}
+
+.more-space-cosmos-header a,
+.most-popular-header > a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	font-size: 1.178em;
+}
+
+.most-popular-header a {
+	text-decoration: none;
+}
+
 .socialIcons {
 	float: right;
 	list-style-type: none;
@@ -190,12 +224,6 @@ h1 {
 	height: 15px;
 	width: 15px;
 	vertical-align: baseline;
-}
-
-.socialIcons li {
-	display: inline;
-	margin-right: 16px;
-	padding: 10px 0;
 }
 
 .socialIcons .save a {
@@ -270,22 +298,22 @@ aside {
 	margin-bottom: 15px;
 }
 
+.side-editor-picks__img img {
+	width: 75px;
+	height: 75px;
+}
+
 .side-editor-picks__img {
 	float: left;
 	margin-right: 7px;
 	width: 75px;
 }
 
-.side-editor-picks__img img {
-	width: 75px;
-	height: 75px;
-}
-
 .side-editor-picks__text {
 	float: left;
 	max-width: 170px;
 	font-size: 10px;
-	font-family: nyt-cheltenham-small, georgia, "times new roman";
+	font-family: georgia, "times new roman";
 }
 
 .aside2 h2 {
@@ -295,13 +323,6 @@ aside {
 	line-height: 14px;
 	letter-spacing: 0.02em;
 	border-bottom: 1px solid #e2e2e2;
-}
-
-.aside2 a {
-	text-decoration: none;
-	color: #333;
-	font-size: 14px;
-	font-weight: 500;
 }
 
 .aside2 a h3 {
@@ -390,6 +411,13 @@ aside {
 	margin: auto;
 }
 
+.bottom-content-h2 {
+	font-size: 1.125rem;
+	line-height: 22px;
+	margin-top: 5px;
+	font-weight: 500;
+}
+
 .bottom-content-h2:hover {
 	opacity: 0.6;
 	cursor: pointer;
@@ -434,25 +462,14 @@ div.image-grid figcaption {
 	text-align: right;
 }
 
-.image-grid img {
-	max-width: 100%;
-}
-
 .image-grid figure {
 	margin: 0;
-}
-
-.bottom-content-h2 {
-	font-size: 1.125rem;
-	line-height: 22px;
-	margin-top: 5px;
-	font-weight: 500;
 }
 
 .image-grid span time {
 	font-weight: 500;
 	color: gray;
-	font-size: .75em;
+	font-size: 0.75em;
 }
 
 .editors-picks {
@@ -489,23 +506,7 @@ footer {
 .footer-nav {
 	display: inline-block;
 	vertical-align: top;
-	width: 15%;
-}
-
-.more-space-cosmos-header {
-	padding: 10px;
-}
-
-.more-space-cosmos-header a,
-.most-popular-header > a {
-	text-decoration: none;
-	color: #000;
-	font-weight: 700;
-	font-size: 1.178em;
-}
-
-.most-popular-header a {
-	text-decoration: none;
+	width: 16%;
 }
 
 #conpyright-section {
@@ -556,10 +557,6 @@ ul#most-popular li {
 
 .footer-header {
 	margin-top: 15px;
-}
-
-.footer-nav {
-	width: 16%;
 }
 
 .footer-header__heading {
