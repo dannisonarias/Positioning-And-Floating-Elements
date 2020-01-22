@@ -597,7 +597,7 @@ ul#most-popular li {
 	font-size: 13px;
 }
 
-.footer-nav__link a {
+a {
 	text-decoration: none;
 	color: #000;
 }
