@@ -205,6 +205,11 @@ h1 {
 	text-decoration: none;
 }
 
+.footer-nav__link a {
+	text-decoration: none;
+	color: #000;
+}
+
 .most-popular-header ul li a {
 	font-size: 1.125em;
 	font-weight: 500;
@@ -597,11 +602,6 @@ ul#most-popular li {
 	font-size: 13px;
 }
 
-.footer-nav__link a {
-	text-decoration: none;
-	color: #000;
-}
-
 .fixed-footer {
 	text-align: center;
 	font-weight: 400;
@@ -615,4 +615,3 @@ ul#most-popular li {
 	cursor: pointer;
 	z-index: 9998;
 }
-
